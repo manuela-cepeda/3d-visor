@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/manuela-cepeda/3d-visory/static/css/main.b94880f4.chunk.css",
+    "main.js": "/manuela-cepeda/3d-visory/static/js/main.bc182a64.chunk.js",
+    "main.js.map": "/manuela-cepeda/3d-visory/static/js/main.bc182a64.chunk.js.map",
+    "runtime-main.js": "/manuela-cepeda/3d-visory/static/js/runtime-main.b13a741b.js",
+    "runtime-main.js.map": "/manuela-cepeda/3d-visory/static/js/runtime-main.b13a741b.js.map",
+    "static/css/2.0ec845c2.chunk.css": "/manuela-cepeda/3d-visory/static/css/2.0ec845c2.chunk.css",
+    "static/js/2.003f3c78.chunk.js": "/manuela-cepeda/3d-visory/static/js/2.003f3c78.chunk.js",
+    "static/js/2.003f3c78.chunk.js.map": "/manuela-cepeda/3d-visory/static/js/2.003f3c78.chunk.js.map",
+    "static/js/3.564ea317.chunk.js": "/manuela-cepeda/3d-visory/static/js/3.564ea317.chunk.js",
+    "static/js/3.564ea317.chunk.js.map": "/manuela-cepeda/3d-visory/static/js/3.564ea317.chunk.js.map",
+    "static/js/4.b1e0516f.chunk.js": "/manuela-cepeda/3d-visory/static/js/4.b1e0516f.chunk.js",
+    "static/js/4.b1e0516f.chunk.js.map": "/manuela-cepeda/3d-visory/static/js/4.b1e0516f.chunk.js.map",
+    "index.html": "/manuela-cepeda/3d-visory/index.html",
+    "static/css/2.0ec845c2.chunk.css.map": "/manuela-cepeda/3d-visory/static/css/2.0ec845c2.chunk.css.map",
+    "static/css/main.b94880f4.chunk.css.map": "/manuela-cepeda/3d-visory/static/css/main.b94880f4.chunk.css.map",
+    "static/js/2.003f3c78.chunk.js.LICENSE.txt": "/manuela-cepeda/3d-visory/static/js/2.003f3c78.chunk.js.LICENSE.txt",
+    "static/media/2x3_Coordination-View-RAC_basic_sample_project.png": "/manuela-cepeda/3d-visory/static/media/2x3_Coordination-View-RAC_basic_sample_project.6386ea4b.png",
+    "static/media/3d-default.png": "/manuela-cepeda/3d-visory/static/media/3d-default.7e184d41.png",
+    "static/media/all.min.css": "/manuela-cepeda/3d-visory/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/ifc.png": "/manuela-cepeda/3d-visory/static/media/ifc.2abbe8f1.png",
+    "static/media/perfil.png": "/manuela-cepeda/3d-visory/static/media/perfil.4ef82ef4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b13a741b.js",
+    "static/css/2.0ec845c2.chunk.css",
+    "static/js/2.003f3c78.chunk.js",
+    "static/css/main.b94880f4.chunk.css",
+    "static/js/main.bc182a64.chunk.js"
+  ]
+}
