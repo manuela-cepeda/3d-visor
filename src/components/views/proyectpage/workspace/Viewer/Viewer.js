@@ -13,7 +13,7 @@ import { MeshLambertMaterial } from "three";
 
 
 
-const Viewer = () => {
+const Viewer = ({model}) => {
 
    /*************SET UP SCENE AND LOADING MODEL *******************/
   //se hace dentro del useEffect para que lo haga luego de renderizar la pagina (fuera no funciona)
@@ -35,18 +35,15 @@ const Viewer = () => {
       depthTest: false
   });
     viewer.addAxes();
-    // viewerAPI.addGrid();
-    // viewer.shadowDropper.darkness = 0.5;
     viewer.IFC.loader.ifcManager.applyWebIfcConfig({ COORDINATE_TO_ORIGIN: true, USE_FAST_BOOLS: true});
     setUpMultiThreading(viewer)
     viewer.clipper.active = false;
-    //let dimensionsActive = false (?)
 
     //LOAD IFC FILE AND SET PROGRESS
-    const frag = window.location.hash.substr(1).split('#'); //usar useparams?
-    const [model, ] = frag    
+
     // const ifcModel = await loadIfc(`../../../${model}.ifc`, viewer) 
     const ifcModel = await loadIfc(`../../../${model}.ifc`, viewer) 
+    
     getSpacialStructure(ifcModel, setTree);
     const allIDs =  getAllIds(ifcModel, setAllIDs);      
     const subset = await getWholeSubset(viewer, ifcModel, allIDs);

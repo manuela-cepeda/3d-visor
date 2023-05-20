@@ -7,7 +7,6 @@ import Navbar from "components/common/Navbar.js";
 
 //views
 import Projects from "components/views/homepage/Projects";
-import User from "components/views/homepage/User";
 
 
 export default function HomePage() {
@@ -20,8 +19,7 @@ export default function HomePage() {
           <Navbar />      
           <div className="px-4 md:px-10 mx-auto w-full my-20">
             <Switch>
-                <Route path="/homepage" exact component={Projects} />
-                <Route path="/homepage/user" exact component={User} />
+                <Route path="/homepage" exact component={Projects} />           
                 <Redirect from="/" to="/homepage" />
             </Switch>         
           </div>

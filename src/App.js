@@ -1,7 +1,5 @@
-import { BrowserRouter, Switch, Redirect } from "react-router-dom";
-//routes
-import PrivateRoute from "components/routes/PrivateRoute";
-// layouts
+import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
+
 import ProjectPage from "components/layouts/ProjectPage";
 import Homepage from "components/layouts/Homepage";
 
@@ -11,17 +9,14 @@ import Homepage from "components/layouts/Homepage";
 function App() {
   
     return (   
-  <BrowserRouter>
-    <Switch>
-      <PrivateRoute path="/homepage">
-              <Homepage /> 
-      </PrivateRoute>
-      <PrivateRoute path="/projectpage">
-              <ProjectPage /> 
-      </PrivateRoute>
-      <Redirect from="/*" to="/homepage" />
+  <HashRouter>
+   <Switch>
+      <Route exact path="/homepage" component = {Homepage} />
+      <Route exact path="/projectpage/:model"  component = {ProjectPage} />
+      <Redirect exact from="/" to="/homepage" />
+      
     </Switch>
-  </BrowserRouter>
+  </HashRouter>
  
   );
 }

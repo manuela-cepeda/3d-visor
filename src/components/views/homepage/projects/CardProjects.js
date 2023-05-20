@@ -1,5 +1,6 @@
 import {useCallback}  from "react";
 import {useHistory} from 'react-router-dom';
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 
 export default function CardProjects({model, name, description}) {
@@ -12,10 +13,8 @@ export default function CardProjects({model, name, description}) {
     <>
   
       <div className="relative hover:scale-105 ease-in-out duration-300 overflow-hidden break-words bg-white w-full mb-6 shadow-xl rounded-lg ">
-        <a 
-        href={ `#${model}#${name}` }
-        onClick={handleOnClick} 
-        > 
+    
+        <NavLink to={`/projectpage/${model}`}>
         
           <img
             alt="..."
@@ -33,9 +32,9 @@ export default function CardProjects({model, name, description}) {
            
           </div>
            
-           
           </div>
-        </a>
+          </NavLink>
+         
       </div>
     </>
   );

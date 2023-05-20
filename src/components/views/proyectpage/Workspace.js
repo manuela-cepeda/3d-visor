@@ -8,10 +8,10 @@ import RightPanel from "./workspace/RightPanel/RightPanel";
 
 import Split from 'react-split'
 import 'assets/styles/split.css';
-
+import { useParams } from "react-router-dom";
 
 export default function Workspace() {
- 
+  const {model} = useParams(); 
   return (
     <>
      <ViewerContextProvider>  
@@ -19,7 +19,7 @@ export default function Workspace() {
       
         <Split  sizes={[20, 60, 20]} minSize={[250, 250, 250]} className="flex">           
           <LeftPanel  />           
-          <Viewer />  
+          <Viewer  model={model} />  
           <RightPanel  />       
         </Split>
     

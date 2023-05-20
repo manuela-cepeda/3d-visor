@@ -11,10 +11,10 @@ import { fetchObtenerProyectos } from "utils/fetchs";
 export default function Projects() { 
 
     const [proyects, setProyects] = useState()
-  useEffect( async () => {   
-    const proyectsFromFetch = await fetchObtenerProyectos()
-    setProyects(proyectsFromFetch)
-  }, [])
+  // useEffect( async () => {   
+  //   const proyectsFromFetch = await fetchObtenerProyectos()
+  //   setProyects(proyectsFromFetch)
+  // }, [])
   
 
   return (
