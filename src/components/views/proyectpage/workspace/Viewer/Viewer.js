@@ -42,7 +42,7 @@ const Viewer = ({model}) => {
     //LOAD IFC FILE AND SET PROGRESS
 
     // const ifcModel = await loadIfc(`../../../${model}.ifc`, viewer) 
-    const ifcModel = await loadIfc(`../../../${model}.ifc`, viewer) 
+    const ifcModel = await loadIfc(`./${model}.ifc`, viewer) 
     
     getSpacialStructure(ifcModel, setTree);
     const allIDs =  getAllIds(ifcModel, setAllIDs);      
