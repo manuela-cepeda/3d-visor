@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/3d-visor/static/css/main.b94880f4.chunk.css",
-    "main.js": "/3d-visor/static/js/main.29163b66.chunk.js",
-    "main.js.map": "/3d-visor/static/js/main.29163b66.chunk.js.map",
-    "runtime-main.js": "/3d-visor/static/js/runtime-main.7b76e33c.js",
-    "runtime-main.js.map": "/3d-visor/static/js/runtime-main.7b76e33c.js.map",
+    "main.js": "/3d-visor/static/js/main.d324cee2.chunk.js",
+    "main.js.map": "/3d-visor/static/js/main.d324cee2.chunk.js.map",
+    "runtime-main.js": "/3d-visor/static/js/runtime-main.b8c79e3e.js",
+    "runtime-main.js.map": "/3d-visor/static/js/runtime-main.b8c79e3e.js.map",
     "static/css/2.24c27c0a.chunk.css": "/3d-visor/static/css/2.24c27c0a.chunk.css",
-    "static/js/2.02b5a564.chunk.js": "/3d-visor/static/js/2.02b5a564.chunk.js",
-    "static/js/2.02b5a564.chunk.js.map": "/3d-visor/static/js/2.02b5a564.chunk.js.map",
-    "static/js/3.e57fd5c4.chunk.js": "/3d-visor/static/js/3.e57fd5c4.chunk.js",
-    "static/js/3.e57fd5c4.chunk.js.map": "/3d-visor/static/js/3.e57fd5c4.chunk.js.map",
-    "static/js/4.7738e07e.chunk.js": "/3d-visor/static/js/4.7738e07e.chunk.js",
-    "static/js/4.7738e07e.chunk.js.map": "/3d-visor/static/js/4.7738e07e.chunk.js.map",
+    "static/js/2.dc4e7f42.chunk.js": "/3d-visor/static/js/2.dc4e7f42.chunk.js",
+    "static/js/2.dc4e7f42.chunk.js.map": "/3d-visor/static/js/2.dc4e7f42.chunk.js.map",
+    "static/js/3.d5f59c8d.chunk.js": "/3d-visor/static/js/3.d5f59c8d.chunk.js",
+    "static/js/3.d5f59c8d.chunk.js.map": "/3d-visor/static/js/3.d5f59c8d.chunk.js.map",
+    "static/js/4.07c10efc.chunk.js": "/3d-visor/static/js/4.07c10efc.chunk.js",
+    "static/js/4.07c10efc.chunk.js.map": "/3d-visor/static/js/4.07c10efc.chunk.js.map",
     "index.html": "/3d-visor/index.html",
     "static/css/2.24c27c0a.chunk.css.map": "/3d-visor/static/css/2.24c27c0a.chunk.css.map",
     "static/css/main.b94880f4.chunk.css.map": "/3d-visor/static/css/main.b94880f4.chunk.css.map",
-    "static/js/2.02b5a564.chunk.js.LICENSE.txt": "/3d-visor/static/js/2.02b5a564.chunk.js.LICENSE.txt",
+    "static/js/2.dc4e7f42.chunk.js.LICENSE.txt": "/3d-visor/static/js/2.dc4e7f42.chunk.js.LICENSE.txt",
     "static/media/2x3_Coordination-View-RAC_basic_sample_project.png": "/3d-visor/static/media/2x3_Coordination-View-RAC_basic_sample_project.6386ea4b.png",
     "static/media/3d-default.png": "/3d-visor/static/media/3d-default.7e184d41.png",
     "static/media/all.min.css": "/3d-visor/static/media/fa-solid-900.efbd5d20.eot",
@@ -23,10 +23,10 @@
     "static/media/perfil.png": "/3d-visor/static/media/perfil.4ef82ef4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b76e33c.js",
+    "static/js/runtime-main.b8c79e3e.js",
     "static/css/2.24c27c0a.chunk.css",
-    "static/js/2.02b5a564.chunk.js",
+    "static/js/2.dc4e7f42.chunk.js",
     "static/css/main.b94880f4.chunk.css",
-    "static/js/main.29163b66.chunk.js"
+    "static/js/main.d324cee2.chunk.js"
   ]
 }
