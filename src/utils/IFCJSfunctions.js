@@ -3,8 +3,8 @@ import { GridHelper } from 'three';
 
 /********** FUNCIONES RELACIONADAS AL USO WEB-IFC-VIEWER (obtenidas de su documentacion) **********/
 export async function setUpMultiThreading(viewer) {
-  await viewer.IFC.setWasmPath("../../../");
-  await viewer.IFC.loader.ifcManager.useWebWorkers(true, '../../../IFCWorker.js');
+  await viewer.IFC.setWasmPath("./");
+  await viewer.IFC.loader.ifcManager.useWebWorkers(true, './IFCWorker.js');
 }
    
 export async function loadIfc(ifcFileRuta, viewer) {
